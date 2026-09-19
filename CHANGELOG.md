@@ -1,3 +1,9 @@
+## [1.5.0-dev.4](https://github.com/jkennethcarino/adobo/compare/v1.5.0-dev.3...v1.5.0-dev.4) (2026-09-19)
+
+### Bug Fixes
+
+* **Gboard - Toggle feature flags:** Allow resetting feature flag's default value ([5b82dc7](https://github.com/jkennethcarino/adobo/commit/5b82dc750a144dfd29a6174d36166d15cad4e1b8))
+
 ## [1.5.0-dev.3](https://github.com/jkennethcarino/adobo/compare/v1.5.0-dev.2...v1.5.0-dev.3) (2026-09-19)
 
 ### Updated App Support
