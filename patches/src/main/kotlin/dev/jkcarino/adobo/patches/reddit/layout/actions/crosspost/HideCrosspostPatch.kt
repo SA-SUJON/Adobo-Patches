@@ -23,6 +23,7 @@ val hideCrosspostPatch = bytecodePatch(
             }
         }
 
+        RepostButtonFingerprint.method.returnEarly(null)
         ShouldAllowCrosspostsFingerprint.method.returnEarly(false)
     }
 }
