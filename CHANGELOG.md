@@ -1,3 +1,9 @@
+## [1.6.0-dev.6](https://github.com/jkennethcarino/adobo/compare/v1.6.0-dev.5...v1.6.0-dev.6) (2026-10-18)
+
+### Updated App Support
+
+* **Reddit:** Add support for `2026.42.0` ([f2e5ab5](https://github.com/jkennethcarino/adobo/commit/f2e5ab5216d6bc47e0e60d6cb9be3c948effca4b))
+
 ## [1.6.0-dev.5](https://github.com/jkennethcarino/adobo/compare/v1.6.0-dev.4...v1.6.0-dev.5) (2026-10-10)
 
 ### Updated App Support
