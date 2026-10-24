@@ -1,3 +1,9 @@
+## [1.7.0-dev.3](https://github.com/jkennethcarino/adobo/compare/v1.7.0-dev.2...v1.7.0-dev.3) (2026-10-24)
+
+### Features
+
+* **Reddit:** Add `Hide search answers preview` patch ([5a2193a](https://github.com/jkennethcarino/adobo/commit/5a2193a88241db975f4eef7ed75ae8c4344bece3))
+
 ## [1.7.0-dev.2](https://github.com/jkennethcarino/adobo/compare/v1.7.0-dev.1...v1.7.0-dev.2) (2026-10-24)
 
 ### Bug Fixes
