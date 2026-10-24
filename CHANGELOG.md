@@ -1,3 +1,13 @@
+## [1.7.0-dev.2](https://github.com/jkennethcarino/adobo/compare/v1.7.0-dev.1...v1.7.0-dev.2) (2026-10-24)
+
+### Bug Fixes
+
+* **Reddit - Disable bottom navigation bar auto-hide:** Fix support for `2026.24.0` ([0369592](https://github.com/jkennethcarino/adobo/commit/036959297bce039aa16decdf815d18678e302d68))
+
+### Features
+
+* **Reddit:** Add `Hide related posts` patch ([0fb5d42](https://github.com/jkennethcarino/adobo/commit/0fb5d42816fd1fba509708d50e41cf86e022c0bf))
+
 ## [1.7.0-dev.1](https://github.com/jkennethcarino/adobo/compare/v1.6.0...v1.7.0-dev.1) (2026-10-24)
 
 ### Features

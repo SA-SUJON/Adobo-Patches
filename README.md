@@ -44,7 +44,7 @@ patching tool for modifying apps like YouTube and Reddit to block ads and add ne
 </details>
 
 <details>
-<summary>📦 Reddit&nbsp;&nbsp;•&nbsp;&nbsp;24 patches</summary>
+<summary>📦 Reddit&nbsp;&nbsp;•&nbsp;&nbsp;25 patches</summary>
 <br>
 
 **Package name:** `com.reddit.frontpage`
@@ -72,6 +72,7 @@ patching tool for modifying apps like YouTube and Reddit to block ads and add ne
 | Hide crosspost | Hides the crosspost on Reddit posts. |  |
 | Hide post view counts | Removes the "views" indicator from the post metadata. |  |
 | Hide prominent search bar | Hides the new prominent search bar on the main screen. Applicable only to version 2026.24.0 and earlier. |  |
+| Hide related posts | Hides the related posts section displayed at the bottom of a post. |  |
 | Hide share count | Hides the share count on Reddit posts. |  |
 | Hide upvote scores | Hides the scores on Reddit posts and comments. | • Hide post scores<br>• Hide comment scores |
 | Hide user community badges | Hides the user community badges on Reddit comments. |  |
