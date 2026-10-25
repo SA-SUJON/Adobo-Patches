@@ -13,6 +13,8 @@ private object SearchAnswersPreviewStreamingSectionFingerprint : Fingerprint(
 )
 
 private object SearchAnswersPreviewSectionFingerprint : Fingerprint(
+    returnType = "Ljava/lang/String;",
+    parameters = listOf(),
     filters = listOf(
         string("SearchAnswersPreviewSection(viewState=")
     )

@@ -24,18 +24,20 @@ val disableScreenshotBannerPatch = bytecodePatch(
     execute {
         OnScreenCapturedFingerprint.methodOrNull?.returnEarly()
 
-        screenshotBannerFingerprints.forEach { fingerprint ->
-            fingerprint.method.apply {
-                val booleanIndex = fingerprint.instructionMatches.last().index - 1
-                val booleanRegister =
-                    getInstruction<OneRegisterInstruction>(booleanIndex).registerA
+        if (packageMetadata.versionName <= "2026.42.0") {
+            screenshotBannerFingerprints.forEach { fingerprint ->
+                fingerprint.method.apply {
+                    val booleanIndex = fingerprint.instructionMatches.last().index - 1
+                    val booleanRegister =
+                        getInstruction<OneRegisterInstruction>(booleanIndex).registerA
 
-                replaceInstruction(
-                    index = booleanIndex,
-                    smaliInstruction = """
-                         sget-object v$booleanRegister, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
-                    """
-                )
+                    replaceInstruction(
+                        index = booleanIndex,
+                        smaliInstruction = """
+                            sget-object v$booleanRegister, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
+                        """
+                    )
+                }
             }
         }
     }
