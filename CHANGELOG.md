@@ -1,3 +1,10 @@
+## [1.7.0-dev.4](https://github.com/jkennethcarino/adobo/compare/v1.7.0-dev.3...v1.7.0-dev.4) (2026-10-25)
+
+### Updated App Support
+
+* **9GAG:** Add support for `8.24.8`, `8.25.1`, and `8.26.1` ([6e90bfd](https://github.com/jkennethcarino/adobo/commit/6e90bfd5058598a14f36b9d34b5bd19cfe0d7ec1))
+* **Reddit:** Add support for `2026.43.0` ([f828cc8](https://github.com/jkennethcarino/adobo/commit/f828cc8d17efc6d8ae42d50e457e76a1a5c49331))
+
 ## [1.7.0-dev.3](https://github.com/jkennethcarino/adobo/compare/v1.7.0-dev.2...v1.7.0-dev.3) (2026-10-24)
 
 ### Features
